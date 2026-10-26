@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Program Studi Sistem Informasi</h1>
+        <p>Asik, Anak Sistem Informasi Keren</p>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a> |
+        <a href="profil.html">Profil</a> |
+        <a href="mata-kuliah.html">Mata Kuliah</a> |
+        <a href="galeri.html">Galeri</a> |
+        <a href="pendaftaran.html">Pendaftaran</a> 
+    </nav>
+
+    <main>
+        <section>
+            <h2 style="text-align: center; font-size: 30px;" >pendaftaran</h2>
+        </section>
+
+         <form action="">
+            <label for="nama depan">Nama Depan: </label>
+            <input type="text" name="namadepan" placeholder="nama depan" required><br>
+            <label for="nama belakang">Nama Belakang: </label>
+            <input type="text" name="namadepan" placeholder="nama depan" required><br>
+            <label for="">Nim: </label>
+            <input type="text" name="Nim" placeholder="Nim berisi 10 angka" required><br>
+            <label for="">Email: </label>
+            <input type="email" name="email" placeholder="masukkan email anda" required><br>
+            <!-- password -->
+            <label for="">password: </label>
+            <input type="password" name="password" id="" required><br>
+            <label for="">Tanggal Lahir: </label>
+            <input type="date" name="tanggal_lahir"required> <br>
+            <label for="">waktu daftar: </label>
+            <input type="time" name="waktu"><br>
+            <!-- gender -->
+            <label for="">Gender: </label>
+            <input type="radio" name="jk" value="laki-laki">laki-laki
+            <input type="radio" name="jk" value="perempuan">perempuan
+            <input type="radio" name="jk" value="other">other <br>
+            <!-- dropdown -->
+            <label for="">program Studi: </label>
+            <select name="program_studi">
+                <option value="sistem_informasi">Sistem Informasi</option>
+                <option value="sistem_komputer">Sistem Komputer</option>
+                <option value="manajemen">Manajemen</option>
+                <option value="ilmu_hukum">Ilmu Hukum</option>
+            </select>
+            <br>
+            <!-- checkbox -->
+            <label for="">bidang yang diminati: </label>
+            <input type="checkbox" name="minat" value="web_development">web development
+            <input type="checkbox" name="minat" value="web_design">web design
+            <input type="checkbox" name="minat" value="android_development">android development
+            <input type="checkbox" name="minat" value="software_engineer">software engineer
+            <br>
+            <!-- upload -->
+            <label for="">upload File: </label>
+            <input type="file" name="foto" id="">
+            <br>
+            <!--text area  -->
+            <label for="">Alamat :</label>
+            <br>
+            <textarea name="alamat" id="" rows="5" cols="40" placeholder="masukkan alamat lengkap"></textarea>
+            <br>
+
+            <!-- button -->
+             <button type="submit">Simpan</button>
+             <button type="resert">Reset</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy;2026 web programming UTS. all right reserved.</p>
+    </footer>
+</body>
+</html>
